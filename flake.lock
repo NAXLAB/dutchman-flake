@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "dutchman-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1792649435,
+        "narHash": "sha256-+kawrFhNHVKmgN8b3Bfh/bIRUZkR0a1YztyqD+e9bWU=",
+        "owner": "dutchman-cad",
+        "repo": "dutchman",
+        "rev": "3ea4c8f2156154722cecdfc905a472e3240b5396",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dutchman-cad",
+        "repo": "dutchman",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1792502884,
+        "narHash": "sha256-IoNisKcGbUjdd45qCqywGMCYmZ5EnkxezvLII0FWwNA=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "02c087f3fe673c9e317f206a627cb6b910336dbe",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "dutchman-src": "dutchman-src",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
